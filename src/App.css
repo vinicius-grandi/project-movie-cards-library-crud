@@ -1,0 +1,176 @@
+body {
+  background-image: linear-gradient(to left, rgb(168, 5, 1) 45%, rgb(92, 2, 1) 80%,rgb(245, 98, 95));
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  font-size: 1.2rem;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(13, 197, 197);
+}
+
+a::before {
+  content: '🔗';
+}
+
+a::after {
+  content: '🔗';
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.edit-form input, textarea, select, button {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.edit-form textarea {
+  vertical-align: -100%
+}
+
+.container {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 40px;
+  color: rgb(235, 235, 235);
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.295);
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.movie-list > div {
+  flex-basis: 25%;
+  border: 1px solid black;
+}
+
+.movie-card {
+  padding: 0.500rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.movie-card:hover {
+  transform:scale(1.1);
+  transition: 0.350s;
+}
+
+.movie-card > div {
+  background-color: rgba(0, 0, 0, 0.897);
+  width: 100%;
+  height: 100%;
+  color: rgb(235, 235, 235);
+  box-shadow: -2px 1px 10px 9px black;
+}
+
+.movie-card > div:hover {
+  background-color: rgba(0, 0, 0, 0.658);
+  transition: 0.350s;
+}
+
+ul {
+  list-style-type: none;
+  width: fit-content;
+}
+
+#delete-button {
+  background-color: rgb(163, 8, 8);
+  border: none;
+  color: white;
+}
+
+#delete-button:hover {
+  background-color: rgb(109, 10, 10);
+  cursor: pointer;
+}
+
+ul li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color: rgb(155, 9, 7);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.295);
+}
+
+ul a::before {
+  content: '';
+}
+
+ul a::after {
+  content: '';
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  color: rgb(235, 235, 235);
+  margin-top: 2rem;
+}
+
+.movie-details > img {
+  border-radius: 15px;
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.295);
+}
+
+.movie-details > div {
+  padding: 0.500rem;
+  margin: 1.4rem;
+  background-color: rgba(0, 0, 0, 0.438);
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.438);
+}
+
+.loading {
+  color: rgb(235, 235, 235);
+}
+
+@media (max-width: 1150px) {
+  .movie-list > div {
+    flex-basis: 40%;
+  }
+
+  .movie-details {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .movie-list > div {
+    flex-basis: 55%;
+  }
+
+  .movie-details > div {
+    flex-basis: 60%;
+  }
+
+  .edit-form input, textarea, select, button { 
+    font-size: 0.8rem;
+  }
+}
