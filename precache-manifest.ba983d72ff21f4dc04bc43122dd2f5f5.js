@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59cde9c08afff3d296b52c89df5a3aca",
+    "revision": "96f2f82f4d7698ccec6370c91170419c",
     "url": "/project-movie-cards-library-crud/index.html"
   },
   {
-    "revision": "2581037b7193dacb0431",
+    "revision": "bc66fd84614f2a3ca7e4",
     "url": "/project-movie-cards-library-crud/static/css/main.7fb499be.chunk.css"
   },
   {
-    "revision": "d1cf6edb32e630b2829f",
-    "url": "/project-movie-cards-library-crud/static/js/2.2f391ab7.chunk.js"
+    "revision": "0b30091459a75509e70b",
+    "url": "/project-movie-cards-library-crud/static/js/2.f1ccd3c0.chunk.js"
   },
   {
-    "revision": "2581037b7193dacb0431",
-    "url": "/project-movie-cards-library-crud/static/js/main.5c032b15.chunk.js"
+    "revision": "bc66fd84614f2a3ca7e4",
+    "url": "/project-movie-cards-library-crud/static/js/main.5c364393.chunk.js"
   },
   {
     "revision": "3eb036539f8671bb8d13",
