@@ -1,7 +1,7 @@
 {
   "name": "sd-0x-block14-project-movie-card-library-crud",
-  "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "http://vinicius-grandi.github.io/project-movie-cards-library-crud",
   "dependencies": {
     "acorn": "7.1.1",
     "minimist": "1.2.3",
